@@ -518,7 +518,8 @@ section {
   cursor: pointer;
 }
 .contact-content-con .right-contact .submit-btn .form-btn:hover {
-  background-color: var(--color-grey5);
+  background-color: var(--color-secondary);
+  color: black;
 }
 .contact-content-con .right-contact .submit-btn .form-btn p {
   margin-left: auto;

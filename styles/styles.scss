@@ -606,7 +606,8 @@ section {
               height: 2rem;
               cursor: pointer;
               &:hover{
-                background-color: var(--color-grey5);
+                background-color: var(--color-secondary);
+                color:black;
               }
               p{
                 margin-left: auto;
