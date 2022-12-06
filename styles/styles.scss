@@ -589,6 +589,31 @@ section {
         .submit-btn {
             display: flex;
             justify-content: center;
+            text-align: center;
+            .form-btn{
+              border-radius: 25px;
+              color: inherit;
+              font-weight: 600;
+              position: relative;
+              background-color: var(--color-primary);
+              border: 1px solid var(--color-secondary);
+              display: flex;
+              // align-self: flex-start;
+              align-items: center;
+              text-align: center;
+              overflow: hidden;
+              width: 50%;
+              height: 2rem;
+              cursor: pointer;
+              &:hover{
+                background-color: var(--color-grey5);
+              }
+              p{
+                margin-left: auto;
+                margin-right: auto;
+              }
+            }
+            
         }
     }
 }
@@ -600,6 +625,10 @@ section {
   display: flex;
   align-self: flex-start;
 }
+
+
+
+
 .main-btn {
   border-radius: 25px;
   color: inherit;
