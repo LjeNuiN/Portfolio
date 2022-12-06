@@ -519,7 +519,7 @@ section {
 }
 .contact-content-con .right-contact .submit-btn .form-btn:hover {
   background-color: var(--color-secondary);
-  color: black;
+  color: var(--color-primary);
 }
 .contact-content-con .right-contact .submit-btn .form-btn p {
   margin-left: auto;
